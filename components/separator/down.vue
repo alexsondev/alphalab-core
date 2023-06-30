@@ -34,12 +34,10 @@ import Color from "color";
 const props = defineProps({
   color: { type: String, default: "blue" },
 });
+const color = computed(() => props.color)
+const colorGen = computed(() => Color(color.value))
+const darken = (i: number) => colorGen.value.darken(i);
 
-const colorGen = Color(props.color);
-
-const color = ref(props.color);
-
-const darken = (i: number) => colorGen.darken(i);
 </script>
 
 <style>
@@ -71,5 +69,9 @@ const darken = (i: number) => colorGen.darken(i);
 .down {
   transform: translateY(-100%) translateY(2px) scale(1, 1);
   transform-origin: top;
+}
+
+.sep-outer + * {
+  padding-bottom: 150px !important;
 }
 </style>
