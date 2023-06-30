@@ -15,6 +15,7 @@
     "@nuxt/devtools": "^0.5.5",
     "@nuxt/eslint-config": "^0.1.1",
     "@nuxtjs/i18n": "next",
+    "@types/color": "^3.0.3",
     "@types/node": "^18",
     "eslint": "^8.28.0",
     "firebase-admin": "^11.7.0",
