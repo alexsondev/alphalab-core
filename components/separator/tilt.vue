@@ -17,7 +17,7 @@
 </template>
 
 <script setup lang="ts">
-import Color from "color";
+// import Color from "color";
 
 const props = defineProps({
   color: String,
@@ -25,7 +25,7 @@ const props = defineProps({
   thirdColor: String,
 });
 
-const colorGen = Color(props.color);
+// const colorGen = Color(props.color);
 
 const color = ref(props.color);
 </script>

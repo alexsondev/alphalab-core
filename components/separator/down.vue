@@ -29,14 +29,15 @@
 </template>
 
 <script setup lang="ts">
-import Color from "color";
+// import Color from "color";
 
 const props = defineProps({
   color: { type: String, default: "blue" },
 });
 const color = computed(() => props.color)
-const colorGen = computed(() => Color(color.value))
-const darken = (i: number) => colorGen.value.darken(i);
+// const colorGen = computed(() => Color(color.value))
+// const darken = (i: number) => colorGen.value.darken(i);
+const darken = (i: number) => props.color;
 
 </script>
 
