@@ -8451,7 +8451,7 @@ nuxt-vuefire@^0.1.6:
     "@nuxt/kit" "^3.0.0"
     lru-cache "^7.17.0"
 
-nuxt@^3.0.0, nuxt@^3.5.1:
+nuxt@^3.4.2, nuxt@^3.5.1:
   version "3.6.1"
   resolved "https://registry.npmjs.org/nuxt/-/nuxt-3.6.1.tgz"
   integrity sha512-IznN+nogCvDuI3IpjXSphdcGBTEeAdpG1iv01inXMWUAeViXhx6FpfPJ2BjQ1WBuahwcUkV2xmMhB3gsv3SLhw==
